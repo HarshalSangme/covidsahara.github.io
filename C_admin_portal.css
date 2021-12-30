@@ -1,0 +1,69 @@
+
+.container{
+	width: 95%;
+	overflow: hidden;
+	background-image: url("admin_portal_bg.png");
+	margin: 20px auto;
+	padding: 20px 0px;
+}
+#user img {
+	content:'';
+    position:absolute;
+    top:30%;
+    left:140px;
+    width:130px;
+    height:130px;
+    z-index:2;
+}
+.container ul{
+	padding: 0px;
+	margin: 0px;
+}
+.container ul li{
+	list-style: none;
+	float: left;
+	width: 20%;
+	height: 300px;
+	background: red;
+	margin: 40px 30px 0px 40px;
+	box-sizing: border-box;
+	border: 2px solid white;
+}
+.container ul li .title:hover{
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	color: white;
+}
+.container ul li .title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: white;
+	text-align: center;
+}
+@media screen and (max-width: 1250px){
+	.container ul li{
+		width: 40%;
+		margin-left: 40px;
+	}
+	#user img {
+		left: 20%;
+		top: 28%;
+		width: 100px;
+		height: 25%;
+	}
+}
+@media screen and (max-width: 773px){
+	.container{
+		width: 100%;
+		padding: 0px;
+	}
+	.container ul li{
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
+	#user img {
+		left: 43%;
+		top: 24%;
+	}
+}

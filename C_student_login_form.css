@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: url(student_login_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login-container {
+	width:350px;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+/*.login-container h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 40px 0;
+	color: black;
+	padding-bottom: 15px;
+	border-bottom: 8px solid #574d36;
+}*/
+
+.upperline {
+	width: 250px;
+	height: 5px;
+	background-color: #574d36;
+	top: 17.5%;
+	left: 37.3%;
+	position: absolute;
+}
+
+.heading-container {
+	width:350px;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+#login-h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 40px 0;
+	color: black;
+	padding-bottom: 15px;
+}
+
+.lowerline {
+	width: 250px;
+	height: 5px;
+	background-color: #574d36;
+	top: 28.5%;
+	left: 37.3%;
+	position: absolute;
+}
+
+
+
+.login-container input {
+	margin-top: 4px;
+	padding: 15px 10px;
+	font-size: 20px;
+	width: 94%;
+	border: none;
+	color: #000000;
+	outline: none;
+	background: none;
+	border-bottom: 2px solid #000000;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+	color: #000000;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.login-container button {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 25px 0px;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	outline: none;
+	border: 0px;
+	background: #060502;
+	color: #ffe6e6;
+}
+@media (max-width: 1111px){
+	section{
+		background: url(student_login_bg.jpg);
+		background-size: cover;
+		height: 100vh;
+	}
+}
+.login-container{
+	max-width: 400px;
+	width: 60%;
+	/*background: #fff;*/
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+.login-container .input{
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+}
+.login-container .input::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.heading-container{
+	max-width: 300px;
+	width: 50%;
+	/*background: #fff;*/
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+.heading-container h1{
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+}
+.heading-container h1::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 110px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+section button:hover{
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+.login-container p{
+	font-size: 20px;
+	font-weight: 700;
+	color: #ff0000eb;
+}
